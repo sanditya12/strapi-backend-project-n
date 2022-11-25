@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videos",
+  "info": {
+    "singularName": "video",
+    "pluralName": "videos",
+    "displayName": "Video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ytId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "text"
+    },
+    "caption_details": {
+      "type": "text"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "keyword": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}
